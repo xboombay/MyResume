@@ -17,3 +17,12 @@ window.addEventListener("mousemove",function(e){
         top: `${posY}px`
     }, {duration: 500, fill:"forwards"});
 });
+
+
+    const sendMail = () => {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const contactNo = document.getElementById('contactNo').value;
+    const message = document.getElementById('message').value;
+    window.open(`https://mail.google.com/mail/u/0/?view=cm&ui=2&tf=0&fs=1&to=forlearneiei@gmail.com&su=เมลล์จากคุณ${name+' '+email}&body=${message}`);
+}

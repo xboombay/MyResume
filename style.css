@@ -258,14 +258,14 @@ h1 , h5{
   }
 /*----------------------skill---------------------------*/
 .skill{
-    margin-left: 110px;
     color: #ddd;
     text-align: center;
     padding-bottom: 60%;
+    padding-left: 2%;
 }
 .skill-row{
     width: 30%;
-    margin: 0 auto;
+    margin: 20px;
     text-align: center;
     float: left;
 }
@@ -286,7 +286,8 @@ h1 , h5{
 }
 
 .java-img{
-    width: 19%;
+    width: 14%;
+    height: 84px;
 }
 
 .python-img{
@@ -295,6 +296,11 @@ h1 , h5{
 
 .figma-img{
     width: 20%;
+}
+
+.js-img{
+  width: 100px;
+  height: 110px;
 }
 
 /*---------------------contact-----------------------------*/
