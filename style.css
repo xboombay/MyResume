@@ -6,6 +6,14 @@ body {
     cursor: none;
 }
 
+.link{
+  color: #68a0d0;
+}
+
+.link:hover{
+  color: #3b577e;
+}
+
 .cursor-dot{
   width: 5px;
   height: 5px;
